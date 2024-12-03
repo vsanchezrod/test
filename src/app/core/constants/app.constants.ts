@@ -1,0 +1,97 @@
+export const APP_CONSTANTS= {
+  ERROR: 'error',
+  OK: 'ok',
+  MAILTO: 'mailto:',
+  COUNTRIES: {
+    ES: 'ES',
+    EN: 'EN',
+    FR: 'FR',
+    PT: 'PT',
+    NL: 'NL'
+  },
+  LANGUAGES: {
+    ES: 'ES',
+    EN: 'EN',
+    FR: 'FR',
+    PT: 'PT',
+    NL: 'NL'
+  },
+  POOL_TYPES: {
+    POOL: "POOL",
+    SPA: "SPA"
+  },
+  POOL_LOCATIONS: {
+    INDOOR: "INDOOR",
+    OUTDOOR: "OUTDOOR",
+  },
+  OVERFLOW_TYPES: {
+    OVERFLOWING: "OVERFLOWING",
+    NOT_OVERFLOWING: "NOT_OVERFLOWING",
+  },
+  POOL_SHAPES: {
+    RECTANGLE: "RECTANGLE",
+    ROUND: "ROUND",
+    CUSTOM: "CUSTOM",
+  },
+  DISINFECTANTS: {
+    CHLORINE: "CHLORINE",
+    BROMINE: "BROMINE",
+    ELECTROLYSIS: "ELECTROLYSIS",
+    LIQUID_CHLORINE: "LIQUID_CHLORINE",
+    OXYGEN: "OXYGEN"
+  },
+  MEDIA_FILTERS: {
+    SAND: "SAND",
+    GLASS: "GLASS",
+    CARTRIDGE: "CARTRIDGE",
+    DIATOMS: "DIATOMS",
+    PERLITE: "PERLITE"
+  },
+  FINISHES: {
+    LINER: "LINER",
+    TILE: "TILE",
+    POLYESTER: "POLYESTER"
+  },
+  MATERIALS: {
+    ABS: 'ABS',
+    STAINLESS_STEEL: "STAINLESS_STEEL"
+  },
+  WATER_COLORS: {
+    CLEAR: "CLEAR",
+    TURBID: "TURBID",
+    GREEN: "GREEN",
+    BROWN: "BROWN",
+    YELLOW: "YELLOW",
+    LILAC: "LILAC"
+  },
+  QUESTION_OPTIONS: {
+    YES: "YES",
+    NO: "NO"
+  },
+  ANALYSIS_TYPES: {
+    MANUAL: "MANUAL",
+    WATERLINK: "WATERLINK",
+    RAPID: "RAPID",
+    NORAPID: "NORAPID"
+  },
+  WATERLINK: {
+    DISKS: {
+      DISK_203: "203 Series Cl/Br With Phosphate Disk",
+      DISK_501: "501 Series 3-Way Disk",
+    },
+    STATES: {
+      READY: "Ready",
+      BUSY: "Busy",
+      OFFLINE: "Offline"
+    },
+    ERRORS: {
+      BUSY: "WATERLINK.ERRORS.BUSY",
+      OFFLINE: "WATERLINK.ERRORS.OFFLINE",
+      OPTIONS: "WATERLINK.ERRORS.OPTIONS",
+      NOT_AVAILABLE: "WATERLINK.ERRORS.NOT_AVAILABLE",
+      API: "WATERLINK.ERRORS.API",
+      TEST: "WATERLINK.ERRORS.TEST",
+      DISINFECTANT: "WATERLINK.ERRORS.DISINFECTANT"
+    }
+  }
+}
